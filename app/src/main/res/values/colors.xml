@@ -11,6 +11,11 @@
     <color name="ga_btncolor">#777777</color>
     <color name="ga_btn2color">#6f6f6f</color>
 
+    <color name="nr_quiz_red">#F44336</color>
+    <color name="nr_quiz_yellow">#FFEB3B</color>
+    <color name="nr_quiz_green">#4CAF50</color>
+    <color name="nr_quiz_blue">#2196F3</color>
+
 
 
 

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- 1. Botão de Menu no canto superior esquerdo -->
+    <Button
+        android:id="@+id/buttonTopLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Voltar" />
+
+    <!-- 2. Grade com 4 botões de resposta na parte inferior -->
+    <GridLayout
+        android:id="@+id/gridLayoutAnswers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:columnCount="2"
+        android:useDefaultMargins="true">
+
+        <Button
+            android:id="@+id/buttonAns1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/nr_quiz_red"
+            tools:text="Resposta A" />
+
+        <Button
+            android:id="@+id/buttonAns2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/nr_quiz_yellow"
+            tools:text="Resposta B" />
+
+        <Button
+            android:id="@+id/buttonAns3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/nr_quiz_green"
+            tools:text="Resposta C" />
+
+        <Button
+            android:id="@+id/buttonAns4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/nr_quiz_blue"
+            tools:text="Resposta D" />
+
+    </GridLayout>
+
+
+    <!-- 3. Container para o conteúdo do Quiz (centralizado e flexível) -->
+    <LinearLayout
+        android:id="@+id/quizContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/buttonTopLeft"
+        android:layout_above="@id/gridLayoutAnswers"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp">
+
+        <!-- Título da questão (Ex: "Questão 1") -->
+        <TextView
+            android:id="@+id/textViewQuestionNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            tools:text="Questão 1" />
+
+        <!-- Conteúdo da pergunta -->
+        <TextView
+            android:id="@+id/textViewQuestionContent"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            tools:text="Este é um exemplo de texto para a pergunta do quiz que pode ocupar várias linhas." />
+
+        <!-- Container para o Temporizador Visual e o Texto (CORRIGIDO) -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp">
+
+            <!-- Fundo da barra de tempo (cinza) -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#E0E0E0" />
+
+            <!-- Barra de tempo que diminui (verde) -->
+            <View
+                android:id="@+id/timerProgress"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#4CAF50"
+                android:scaleX="1.0"
+                android:transformPivotX="0dp"/>
+
+            <!-- Texto do Temporizador (por cima de tudo) -->
+            <TextView
+                android:id="@+id/textViewTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="1:00" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
