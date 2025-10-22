@@ -2,30 +2,24 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/main"
     android:background="@drawable/pontuacao"
     tools:context=".ScoreActivity">
 
     <TextView
         android:id="@+id/titleScore"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
+        android:layout_width="200dp"
+        android:layout_height="45dp"
         android:layout_marginTop="70dp"
-
-        android:width="200dp"
-        android:height="45dp"
-
         android:background="@drawable/title_drawable"
         android:fontFamily="@font/itim"
+        android:gravity="center"
+        android:includeFontPadding="false"
         android:text="Pontuação"
-        android:textAlignment="center"
         android:textColor="#000"
-        android:textSize="32sp"
-
-        app:flow_horizontalAlign="center"
+        android:textSize="32dp"
         app:layout_constraintBottom_toTopOf="@+id/score"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
@@ -35,23 +29,17 @@
 
     <TextView
         android:id="@+id/score"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
         android:layout_marginTop="80dp"
         android:layout_marginBottom="12dp"
-
-        android:width="200dp"
-        android:height="150dp"
-
         android:background="@drawable/rounded_rectangle"
         android:fontFamily="@font/itim"
         android:gravity="center"
+        android:includeFontPadding="false"
         android:text="78"
-        android:textAlignment="center"
         android:textColor="#000"
-        android:textSize="60sp"
-        
+        android:textSize="60dp"
         app:layout_constraintBottom_toTopOf="@+id/timeText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
@@ -63,76 +51,63 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        
+        android:layout_marginBottom="-10dp"
         android:fontFamily="@font/itim"
         android:text="Parabéns!"
         android:textColor="#fff"
-        android:textSize="30sp"
-        
+        android:textSize="30dp"
         app:layout_constraintBottom_toTopOf="@+id/timeField"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/score" />
 
-    <TextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/timeField"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
         android:layout_marginBottom="40dp"
-        
-        android:width="200dp"
-        android:height="40dp"
-        
-        android:background="@drawable/rounded_rectangle"
+        android:background="@drawable/button_white"
         android:fontFamily="@font/itim"
+        android:gravity="center"
+        android:includeFontPadding="false"
         android:text="00:00"
-        android:textAlignment="center"
         android:textColor="#303030"
-        android:textSize="32sp"
-        
+        android:textSize="32dp"
         app:layout_constraintBottom_toTopOf="@+id/btnLeft"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/timeText" />
-    
-    <Button
+
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnLeft"
-        style="@style/Widget.Material3.Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-
-        android:width="200dp"
-        android:height="65dp"
-
-        android:backgroundTint="#B42020"
+        android:background="@drawable/button_red"
         android:fontFamily="@font/itim"
+        android:gravity="center"
         android:text="Sair"
-        android:textSize="30sp"
+        android:textColor="#fff"
+        android:textSize="30dp"
         app:cornerRadius="20dp"
-
         app:layout_constraintBottom_toTopOf="@+id/btnRedo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/timeField" />
-    <Button
+
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnRedo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
         android:layout_marginBottom="40dp"
-        
-        android:width="200dp"
-        android:height="65dp"
-        
-        android:backgroundTint="@color/mh_silver"
+        android:background="@drawable/button_white"
         android:fontFamily="@font/itim"
+        android:gravity="center"
         android:text="Refazer"
         android:textColor="#050000"
-        android:textSize="30sp"
+        android:textSize="30dp"
         app:cornerRadius="20dp"
-        
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
