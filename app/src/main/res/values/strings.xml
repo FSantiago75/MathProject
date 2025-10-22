@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">MathProject</string>
     <string name="teste">Teste</string>
-    <string name="ga_txtSelect">Selecione sua série: </string>
+    <string name="ga_txtSelect">Série: </string>
     <string name="ga_btnConfirmar">Confirmar</string>
     <string name="nr_teste">teste</string>
 
