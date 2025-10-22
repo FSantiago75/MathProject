@@ -2,14 +2,21 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="bg01">#77ffff</color>
-    <color name="bg02">#ff00ff</color>
-    <color name="bg03">#ff0000</color>
     <color name="mh_silver">#F2F2F2</color>
     <color name="ga_bgcolor">#4C4C4C</color>
     <color name="ga_txtcolor">#f0f0f0</color>
     <color name="ga_btncolor">#777777</color>
     <color name="ga_btn2color">#6f6f6f</color>
+    <color name="btn_colorRed">#E24040</color>
+    <color name="btn_colorGreen">#63DB69</color>
+    <color name="btn_colorYellow">#EAD74A</color>
+    <color name="btn_colorBlue">#43DBEB</color>
+    <color name="btn_colorDarkBlue">#6466E5</color>
+    <color name="btn_colorPink">#D44C83</color>
+
+    <color name="text_color_timer">#303030</color>
+
+
 
 
 

@@ -2,14 +2,14 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/score"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/pontuacao"
     tools:context=".ScoreActivity">
 
     <TextView
-        android:id="@+id/titleScore"
+        android:id="@+id/scoreTitle"
         android:layout_width="200dp"
         android:layout_height="45dp"
         android:layout_marginTop="70dp"
@@ -18,9 +18,9 @@
         android:gravity="center"
         android:includeFontPadding="false"
         android:text="Pontuação"
-        android:textColor="#000"
+        android:textColor="@color/black"
         android:textSize="32dp"
-        app:layout_constraintBottom_toTopOf="@+id/score"
+        app:layout_constraintBottom_toTopOf="@+id/scoreField"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,7 +29,7 @@
         tools:ignore="SpUsage" />
 
     <TextView
-        android:id="@+id/score"
+        android:id="@+id/scoreField"
         android:layout_width="200dp"
         android:layout_height="150dp"
         android:layout_marginTop="80dp"
@@ -39,13 +39,13 @@
         android:gravity="center"
         android:includeFontPadding="false"
         android:text="78"
-        android:textColor="#000"
+        android:textColor="@color/black"
         android:textSize="60dp"
         app:layout_constraintBottom_toTopOf="@+id/timeText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titleScore"
+        app:layout_constraintTop_toBottomOf="@+id/scoreTitle"
         tools:ignore="SpUsage" />
 
     <TextView
@@ -56,43 +56,43 @@
         android:layout_marginBottom="-10dp"
         android:fontFamily="@font/itim"
         android:text="Parabéns!"
-        android:textColor="#fff"
+        android:textColor="@color/white"
         android:textSize="30dp"
         app:layout_constraintBottom_toTopOf="@+id/timeField"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/score"
+        app:layout_constraintTop_toBottomOf="@+id/scoreField"
         tools:ignore="SpUsage" />
 
-    <androidx.appcompat.widget.AppCompatTextView
+    <TextView
         android:id="@+id/timeField"
         android:layout_width="200dp"
         android:layout_height="40dp"
         android:layout_marginBottom="40dp"
-        android:background="@drawable/button_white"
+        android:background="@drawable/white_card_20dp"
         android:fontFamily="@font/itim"
         android:gravity="center"
         android:includeFontPadding="false"
         android:text="00:00"
-        android:textColor="#303030"
-        android:textSize="32dp"
+        android:textColor="@color/text_color_timer"
+        android:textSize="34dp"
         app:layout_constraintBottom_toTopOf="@+id/btnLeft"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/timeText"
         tools:ignore="SpUsage" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <Button
         android:id="@+id/btnLeft"
         android:layout_width="200dp"
-        android:layout_height="65dp"
+        android:layout_height="70dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:background="@drawable/button_red"
+        android:backgroundTint="@color/btn_colorRed"
         android:fontFamily="@font/itim"
         android:gravity="center"
         android:text="Sair"
-        android:textColor="#fff"
+        android:textColor="@color/white"
         android:textSize="30dp"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toTopOf="@+id/btnRedo"
@@ -101,16 +101,16 @@
         app:layout_constraintTop_toBottomOf="@+id/timeField"
         tools:ignore="SpUsage" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <Button
         android:id="@+id/btnRedo"
         android:layout_width="200dp"
-        android:layout_height="65dp"
+        android:layout_height="70dp"
         android:layout_marginBottom="40dp"
-        android:background="@drawable/button_white"
+        android:backgroundTint="@color/white"
         android:fontFamily="@font/itim"
         android:gravity="center"
         android:text="Refazer"
-        android:textColor="#050000"
+        android:textColor="@color/black"
         android:textSize="30dp"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
