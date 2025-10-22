@@ -25,7 +25,8 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.344" />
+        app:layout_constraintVertical_bias="0.344"
+        tools:ignore="SpUsage" />
 
     <TextView
         android:id="@+id/score"
@@ -44,7 +45,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titleScore" />
+        app:layout_constraintTop_toBottomOf="@+id/titleScore"
+        tools:ignore="SpUsage" />
 
     <TextView
         android:id="@+id/timeText"
@@ -59,7 +61,8 @@
         app:layout_constraintBottom_toTopOf="@+id/timeField"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/score" />
+        app:layout_constraintTop_toBottomOf="@+id/score"
+        tools:ignore="SpUsage" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/timeField"
@@ -76,7 +79,8 @@
         app:layout_constraintBottom_toTopOf="@+id/btnLeft"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/timeText" />
+        app:layout_constraintTop_toBottomOf="@+id/timeText"
+        tools:ignore="SpUsage" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnLeft"
@@ -94,7 +98,8 @@
         app:layout_constraintBottom_toTopOf="@+id/btnRedo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/timeField" />
+        app:layout_constraintTop_toBottomOf="@+id/timeField"
+        tools:ignore="SpUsage" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnRedo"
@@ -112,5 +117,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnLeft" />
+        app:layout_constraintTop_toBottomOf="@+id/btnLeft"
+        tools:ignore="SpUsage"  />
 </androidx.constraintlayout.widget.ConstraintLayout>
