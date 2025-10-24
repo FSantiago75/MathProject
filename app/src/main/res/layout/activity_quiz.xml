@@ -1,10 +1,173 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/quiz"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/quiz"
     tools:context=".QuizActivity">
+
+    <Button
+        android:id="@+id/ga_btnBack"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="65dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        app:cornerRadius="16dp"
+        app:icon="@drawable/ic_ga_back_arrow"
+        app:iconGravity="textEnd"
+        app:iconPadding="0dp"
+        app:iconSize="38dp"
+        app:iconTint="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewQuestionNumber"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/title_drawable"
+        android:fontFamily="@font/itim"
+        android:gravity="center"
+        android:text="Questão 1"
+        android:textColor="@color/black"
+        android:textSize="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:id="@+id/textViewQuestionContent"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/white_card_20dp"
+        android:fontFamily="@font/itim"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Este é um exemplo de texto para a pergunta do quiz que pode ocupar várias linhas."
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewQuestionNumber" />
+
+    <FrameLayout
+        android:id="@+id/timerContainer"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintTop_toBottomOf="@id/textViewQuestionContent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/timer_background" />
+
+        <View
+            android:id="@+id/timerProgress"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/timer_green"
+            android:scaleX="1"/>
+
+        <TextView
+            android:id="@+id/textViewTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="28dp"
+            android:fontFamily="@font/itim"
+            android:textStyle="bold"
+            android:text="1:00" />
+
+    </FrameLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <Button
+        android:id="@+id/buttonAns3"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="@color/btn_colorGreen"
+        android:fontFamily="@font/itim"
+        android:text="Resposta C"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:cornerRadius="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_vertical"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonAns4"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="@color/btn_colorDarkBlue"
+        android:fontFamily="@font/itim"
+        android:text="Resposta D"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:cornerRadius="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline_vertical" />
+
+    <Button
+        android:id="@+id/buttonAns1"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="@color/btn_colorRed"
+        android:fontFamily="@font/itim"
+        android:text="Resposta A"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:cornerRadius="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAns3"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_vertical"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonAns2"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="4dp"
+        android:backgroundTint="@color/btn_colorYellow"
+        android:fontFamily="@font/itim"
+        android:text="Resposta B"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:cornerRadius="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAns4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline_vertical" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

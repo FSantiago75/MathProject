@@ -4,7 +4,99 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/difficulty"
     android:background="@drawable/dificuldade"
     tools:context=".DifficultyActivity">
+
+    <Button
+        android:id="@+id/btnBack"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="65dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        app:cornerRadius="16dp"
+        app:icon="@drawable/ic_ga_back_arrow"
+        app:iconGravity="textEnd"
+        app:iconPadding="0dp"
+        app:iconSize="38dp"
+        app:iconTint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/txtSerie"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24" />
+
+    <TextView
+        android:id="@+id/txtSerie"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/title_drawable"
+        android:fontFamily="@font/itim"
+        android:gravity="center"
+        android:text="Dificuldade"
+        android:textColor="@color/black"
+        android:textSize="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpUsage"/>
+
+    <Button
+        android:id="@+id/btnEasy"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@color/btn_colorGreen"
+        app:cornerRadius="20dp"
+        android:fontFamily="@font/itim"
+        android:gravity="center"
+        android:text="Fácil"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSerie"
+        tools:ignore="SpUsage" />
+
+    <Button
+        android:id="@+id/btnMedium"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="31dp"
+        android:backgroundTint="@color/btn_colorYellow"
+        app:cornerRadius="20dp"
+        android:fontFamily="@font/itim"
+        android:gravity="center"
+        android:text="Médio"
+        android:textColor="@color/white"
+        android:textSize="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEasy"
+        tools:ignore="SpUsage" />
+
+    <Button
+        android:id="@+id/btnHard"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="31dp"
+        android:backgroundTint="@color/btn_colorRed"
+        app:cornerRadius="20dp"
+        android:fontFamily="@font/itim"
+        android:gravity="center"
+        android:text="Difícil"
+        android:textColor="@color/white"
+        android:textSize="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMedium"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpUsage" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
