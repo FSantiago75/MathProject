@@ -8,25 +8,6 @@
     android:background="@drawable/serie"
     tools:context=".SeriesActivity">
 
-    <Button
-        android:id="@+id/ga_btnBack"
-        style="@style/Widget.Material3.Button"
-        android:layout_width="65dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="10dp"
-        android:backgroundTint="@color/white"
-        app:cornerRadius="16dp"
-        app:icon="@drawable/ic_ga_back_arrow"
-        app:iconGravity="textEnd"
-        app:iconPadding="0dp"
-        app:iconSize="38dp"
-        app:iconTint="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/ga_txtSerie"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.24" />
-
     <TextView
         android:id="@+id/ga_txtSerie"
         android:layout_width="200dp"
@@ -37,29 +18,62 @@
         android:gravity="center"
         android:text="@string/ga_txtSelect"
         android:textColor="@color/black"
-        android:textSize="32dp"
+        android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="SpUsage"/>
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ga_carrossel"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:clipToPadding="false"
+        android:orientation="horizontal"
+        android:paddingHorizontal="160dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toTopOf="@+id/ga_btnConfirm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ga_txtSerie"
+        app:layout_constraintVertical_bias="0.462"
+        tools:listitem="@layout/item_number" />
 
     <Button
-        android:id="@+id/btnRedo"
+        android:id="@+id/ga_btnConfirm"
         style="@style/Widget.Material3.Button"
-        android:layout_width="300dp"
-        android:layout_height="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
+        android:width="200dp"
+        android:height="65dp"
         android:backgroundTint="@color/white"
         android:fontFamily="@font/itim"
-        android:gravity="center"
-        android:text="Confirmar"
+        android:text="@string/ga_btnConfirmar"
         android:textColor="@color/black"
-        android:textSize="30dp"
+        android:textSize="30sp"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ga_btnBack"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="05dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        app:cornerRadius="16dp"
+        app:icon="@drawable/ic_ga_back_arrow"
+        app:iconGravity="textEnd"
+        app:iconPadding="3dp"
+        app:iconSize="30dp"
+        app:iconTint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/ga_txtSerie"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="SpUsage" />
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
