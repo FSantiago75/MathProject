@@ -1,0 +1,132 @@
+[
+  {
+    "conteudo": "Algebra",
+    "numero": 1,
+    "pergunta": "Qual o valor de 'x' em 2(x - 3) = 14?",
+    "opcoes": [
+      "x = 8",
+      "x = 9",
+      "x = 10",
+      "x = 11"
+    ],
+    "resposta_correta": "x = 10",
+    "pontos": 15
+  },
+  {
+    "conteudo": "Algebra",
+    "numero": 2,
+    "pergunta": "Qual é o valor de 'x' na equação: 3x + 5 = 20?",
+    "opcoes": [
+      "x = 5",
+      "x = 4",
+      "x = 6",
+      "x = 7"
+    ],
+    "resposta_correta": "x = 5",
+    "pontos": 10
+  },
+  {
+    "conteudo": "Algebra",
+    "numero": 3,
+    "pergunta": "Qual a expressão que representa 'o dobro de um número subtraído por 4'?",
+    "opcoes": [
+      "4 - 2x",
+      "2x + 4",
+      "2x - 4",
+      "x/2 - 4"
+    ],
+    "resposta_correta": "2x - 4",
+    "pontos": 10
+  },
+  {
+    "conteudo": "Algebra",
+    "numero": 4,
+    "pergunta": "Se 'a = 3' e 'b = -2', qual o valor numérico da expressão a² + 2ab?",
+    "opcoes": [
+      "-3",
+      "3",
+      "12",
+      "-12"
+    ],
+    "resposta_correta": "-3",
+    "pontos": 15
+  },
+  {
+    "conteudo": "Algebra",
+    "numero": 5,
+    "pergunta": "Qual é a fórmula de Bhaskara para resolver uma equação do segundo grau (ax² + bx + c = 0)?",
+    "opcoes": [
+      "x = (-b ± √(b² - 4ac)) / 2a",
+      "x = (-b ± √(b² + 4ac)) / 2a",
+      "x = (b ± √(b² - 4ac)) / a",
+      "x = (-b ± √(a² - 4bc)) / 2a"
+    ],
+    "resposta_correta": "x = (-b ± √(b² - 4ac)) / 2a",
+    "pontos": 20
+  },
+  {
+    "conteudo": "Algebra",
+    "numero": 6,
+    "pergunta": "Qual o resultado da simplificação do monômio: (5x²y) * (3xy³)?",
+    "opcoes": [
+      "8x³y⁴",
+      "15x²y³",
+      "15x³y⁴",
+      "15x²y²"
+    ],
+    "resposta_correta": "15x³y⁴",
+    "pontos": 15
+  },
+  {
+    "conteudo": "Algebra",
+    "numero": 7,
+    "pergunta": "O que representa o símbolo Δ (delta) na fórmula de Bhaskara?",
+    "opcoes": [
+      "A raiz da equação",
+      "O coeficiente 'a'",
+      "O discriminante",
+      "O termo independente"
+    ],
+    "resposta_correta": "O discriminante",
+    "pontos": 10
+  },
+  {
+    "conteudo": "Algebra",
+    "numero": 8,
+    "pergunta": "Qual é a solução para o sistema de equações: x + y = 10 e x - y = 2?",
+    "opcoes": [
+      "x=6, y=4",
+      "x=4, y=6",
+      "x=5, y=5",
+      "x=7, y=3"
+    ],
+    "resposta_correta": "x=6, y=4",
+    "pontos": 20
+  },
+  {
+    "conteudo": "Algebra",
+    "numero": 9,
+    "pergunta": "Qual o grau do polinômio P(x) = 5x⁴ - 2x² + 7?",
+    "opcoes": [
+      "Grau 1",
+      "Grau 2",
+      "Grau 4",
+      "Grau 5"
+    ],
+    "resposta_correta": "Grau 4",
+    "pontos": 10
+  },
+  {
+    "conteudo": "Algebra",
+    "numero": 10,
+    "pergunta": "O que é uma 'equação linear'?",
+    "opcoes": [
+      "Uma equação onde a maior potência da variável é 2.",
+      "Uma equação onde todas as variáveis estão elevadas à potência 1.",
+      "Uma equação que possui apenas uma solução.",
+      "Uma equação sem soluções reais."
+    ],
+    "resposta_correta": "Uma equação onde todas as variáveis estão elevadas à potência 1.",
+    "pontos": 15
+  }
+]
