@@ -14,6 +14,7 @@ import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.LinearSnapHelper
 import androidx.recyclerview.widget.RecyclerView
+import kotlin.math.log
 
 class SeriesActivity : AppCompatActivity() {
 
@@ -25,7 +26,8 @@ class SeriesActivity : AppCompatActivity() {
 
     // Lista de números que queremos mostrar
     private val numbers = listOf("6°", "7°", "8°", "9°")
-    private var currentSelectedValue = "7°" // Valor inicial que você quer focar (MUDADO)
+    private var currentSelectedValue = "6°" // Valor inicial que você quer focar (MUDADO)
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -51,6 +53,7 @@ class SeriesActivity : AppCompatActivity() {
         if (initialPosition != -1) {
             // Rolar para a posição inicial
             // Damos um post para garantir que o layout esteja pronto
+
             recyclerView.post {
                 // --- LÓGICA SIMPLIFICADA ---
                 // Apenas pule para a posição. Não precisa de cálculos complexos.
@@ -151,6 +154,3 @@ class SeriesActivity : AppCompatActivity() {
         }
     }
 }
-
-
-

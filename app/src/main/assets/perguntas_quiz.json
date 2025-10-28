@@ -1,132 +1,790 @@
-[
-  {
-    "conteudo": "Algebra",
-    "numero": 1,
-    "pergunta": "Qual o valor de 'x' em 2(x - 3) = 14?",
-    "opcoes": [
-      "x = 8",
-      "x = 9",
-      "x = 10",
-      "x = 11"
-    ],
-    "resposta_correta": "x = 10",
-    "pontos": 15
+{
+  "MMC e MDC": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é o MMC entre 12 e 18?",
+        "pontos": 15,
+        "opcoes": ["12", "18", "24", "36"],
+        "resposta": "36"
+      },
+      {
+        "id": 2,
+        "pergunta": "Qual é o MDC entre 20 e 30?",
+        "pontos": 10,
+        "opcoes": ["2", "5", "10", "15"],
+        "resposta": "10"
+      },
+      {
+        "id": 3,
+        "pergunta": "O MMC entre 8 e 12 é igual a:",
+        "pontos": 10,
+        "opcoes": ["16", "24", "32", "48"],
+        "resposta": "24"
+      },
+      {
+        "id": 4,
+        "pergunta": "O MDC entre 45 e 60 é:",
+        "pontos": 10,
+        "opcoes": ["5", "10", "15", "20"],
+        "resposta": "15"
+      },
+      {
+        "id": 5,
+        "pergunta": "Qual é o MMC entre 9, 6 e 15?",
+        "pontos": 15,
+        "opcoes": ["30", "45", "60", "90"],
+        "resposta": "90"
+      }
+    ]
   },
-  {
-    "conteudo": "Algebra",
-    "numero": 2,
-    "pergunta": "Qual é o valor de 'x' na equação: 3x + 5 = 20?",
-    "opcoes": [
-      "x = 5",
-      "x = 4",
-      "x = 6",
-      "x = 7"
-    ],
-    "resposta_correta": "x = 5",
-    "pontos": 10
+  "Frações e Decimais": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é o valor decimal da fração 3/4?",
+        "pontos": 10,
+        "opcoes": ["0,5", "0,65", "0,75", "1,25"],
+        "resposta": "0,75"
+      },
+      {
+        "id": 2,
+        "pergunta": "Qual fração é equivalente a 0,5?",
+        "pontos": 10,
+        "opcoes": ["1/2", "2/3", "3/4", "4/5"],
+        "resposta": "1/2"
+      },
+      {
+        "id": 3,
+        "pergunta": "Qual é a soma de 1/3 + 1/6?",
+        "pontos": 10,
+        "opcoes": ["1/2", "2/3", "3/6", "5/6"],
+        "resposta": "1/2"
+      },
+      {
+        "id": 4,
+        "pergunta": "Qual número representa 25%?",
+        "pontos": 10,
+        "opcoes": ["0,025", "0,25", "2,5", "25"],
+        "resposta": "0,25"
+      },
+      {
+        "id": 5,
+        "pergunta": "Qual é o resultado de 0,4 + 0,35?",
+        "pontos": 10,
+        "opcoes": ["0,65", "0,7", "0,75", "0,8"],
+        "resposta": "0,75"
+      }
+    ]
   },
-  {
-    "conteudo": "Algebra",
-    "numero": 3,
-    "pergunta": "Qual a expressão que representa 'o dobro de um número subtraído por 4'?",
-    "opcoes": [
-      "4 - 2x",
-      "2x + 4",
-      "2x - 4",
-      "x/2 - 4"
-    ],
-    "resposta_correta": "2x - 4",
-    "pontos": 10
+  "Medidas e Conversões": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Quantos centímetros há em 2,5 metros?",
+        "pontos": 10,
+        "opcoes": ["25", "250", "2500", "0,25"],
+        "resposta": "250"
+      },
+      {
+        "id": 2,
+        "pergunta": "1 litro equivale a quantos mililitros?",
+        "pontos": 10,
+        "opcoes": ["10", "100", "1000", "10000"],
+        "resposta": "1000"
+      },
+      {
+        "id": 3,
+        "pergunta": "Quantos metros há em 3,5 quilômetros?",
+        "pontos": 10,
+        "opcoes": ["350", "3500", "35000", "350000"],
+        "resposta": "3500"
+      },
+      {
+        "id": 4,
+        "pergunta": "Se uma caixa pesa 2000 gramas, qual é seu peso em quilogramas?",
+        "pontos": 10,
+        "opcoes": ["0,2 kg", "2 kg", "20 kg", "200 kg"],
+        "resposta": "2 kg"
+      },
+      {
+        "id": 5,
+        "pergunta": "Quantos minutos há em 2 horas e 30 minutos?",
+        "pontos": 10,
+        "opcoes": ["120", "130", "140", "150"],
+        "resposta": "150"
+      }
+    ]
   },
-  {
-    "conteudo": "Algebra",
-    "numero": 4,
-    "pergunta": "Se 'a = 3' e 'b = -2', qual o valor numérico da expressão a² + 2ab?",
-    "opcoes": [
-      "-3",
-      "3",
-      "12",
-      "-12"
-    ],
-    "resposta_correta": "-3",
-    "pontos": 15
+  "Geometria Básica e Sólidos": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Quantos vértices tem um cubo?",
+        "pontos": 10,
+        "opcoes": ["6", "8", "10", "12"],
+        "resposta": "8"
+      },
+      {
+        "id": 2,
+        "pergunta": "Um triângulo tem:",
+        "pontos": 5,
+        "opcoes": ["2 lados", "3 lados", "4 lados", "5 lados"],
+        "resposta": "3 lados"
+      },
+      {
+        "id": 3,
+        "pergunta": "Quantas faces tem um prisma de base pentagonal?",
+        "pontos": 10,
+        "opcoes": ["5", "6", "7", "10"],
+        "resposta": "7"
+      },
+      {
+        "id": 4,
+        "pergunta": "Quantas arestas tem uma pirâmide de base quadrada?",
+        "pontos": 10,
+        "opcoes": ["5", "6", "8", "10"],
+        "resposta": "8"
+      },
+      {
+        "id": 5,
+        "pergunta": "Um sólido com 1 face curva e 2 planas é:",
+        "pontos": 10,
+        "opcoes": ["Esfera", "Cone", "Cilindro", "Prisma"],
+        "resposta": "Cilindro"
+      }
+    ]
   },
-  {
-    "conteudo": "Algebra",
-    "numero": 5,
-    "pergunta": "Qual é a fórmula de Bhaskara para resolver uma equação do segundo grau (ax² + bx + c = 0)?",
-    "opcoes": [
-      "x = (-b ± √(b² - 4ac)) / 2a",
-      "x = (-b ± √(b² + 4ac)) / 2a",
-      "x = (b ± √(b² - 4ac)) / a",
-      "x = (-b ± √(a² - 4bc)) / 2a"
-    ],
-    "resposta_correta": "x = (-b ± √(b² - 4ac)) / 2a",
-    "pontos": 20
+  "Gráficos e Estatística": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Em um gráfico de barras, o que o eixo horizontal geralmente representa?",
+        "pontos": 10,
+        "opcoes": ["A frequência", "As categorias", "O total", "O título"],
+        "resposta": "As categorias"
+      },
+      {
+        "id": 2,
+        "pergunta": "Qual é a média dos números 4, 6 e 10?",
+        "pontos": 10,
+        "opcoes": ["6", "7", "8", "10"],
+        "resposta": "6,7"
+      },
+      {
+        "id": 3,
+        "pergunta": "Em um gráfico de pizza, a fração 1/4 representa qual porcentagem?",
+        "pontos": 10,
+        "opcoes": ["10%", "20%", "25%", "50%"],
+        "resposta": "25%"
+      },
+      {
+        "id": 4,
+        "pergunta": "O valor que mais se repete em um conjunto de dados é chamado de:",
+        "pontos": 10,
+        "opcoes": ["Média", "Mediana", "Moda", "Amplitude"],
+        "resposta": "Moda"
+      },
+      {
+        "id": 5,
+        "pergunta": "O que o eixo vertical de um gráfico de colunas normalmente mostra?",
+        "pontos": 10,
+        "opcoes": ["As categorias", "A legenda", "A frequência", "O título"],
+        "resposta": "A frequência"
+      }
+    ]
   },
-  {
-    "conteudo": "Algebra",
-    "numero": 6,
-    "pergunta": "Qual o resultado da simplificação do monômio: (5x²y) * (3xy³)?",
-    "opcoes": [
-      "8x³y⁴",
-      "15x²y³",
-      "15x³y⁴",
-      "15x²y²"
-    ],
-    "resposta_correta": "15x³y⁴",
-    "pontos": 15
+  "Números Inteiros": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é o resultado de (-8) + 5?",
+        "pontos": 10,
+        "opcoes": ["13", "3", "-3", "-13"],
+        "resposta": "-3"
+      },
+      {
+        "id": 2,
+        "pergunta": "O oposto de -7 é:",
+        "pontos": 10,
+        "opcoes": ["-7", "0", "7", "1"],
+        "resposta": "7"
+      },
+      {
+        "id": 3,
+        "pergunta": "O resultado de (-3) × (-4) é:",
+        "pontos": 10,
+        "opcoes": ["-12", "0", "12", "7"],
+        "resposta": "12"
+      },
+      {
+        "id": 4,
+        "pergunta": "Qual número é menor: -5 ou -2?",
+        "pontos": 5,
+        "opcoes": ["-5", "-2", "0", "1"],
+        "resposta": "-5"
+      },
+      {
+        "id": 5,
+        "pergunta": "O resultado de (-10) ÷ 2 é:",
+        "pontos": 10,
+        "opcoes": ["-20", "-5", "5", "10"],
+        "resposta": "-5"
+      }
+    ]
   },
-  {
-    "conteudo": "Algebra",
-    "numero": 7,
-    "pergunta": "O que representa o símbolo Δ (delta) na fórmula de Bhaskara?",
-    "opcoes": [
-      "A raiz da equação",
-      "O coeficiente 'a'",
-      "O discriminante",
-      "O termo independente"
-    ],
-    "resposta_correta": "O discriminante",
-    "pontos": 10
+  "Operações Racionais": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é o resultado de 2/3 + 1/6?",
+        "pontos": 15,
+        "opcoes": ["1/2", "5/6", "2/9", "3/4"],
+        "resposta": "5/6"
+      },
+      {
+        "id": 2,
+        "pergunta": "O resultado de 3/4 − 1/2 é:",
+        "pontos": 10,
+        "opcoes": ["1/4", "1/2", "2/4", "3/2"],
+        "resposta": "1/4"
+      },
+      {
+        "id": 3,
+        "pergunta": "Qual é o resultado de 2/5 × 3/4?",
+        "pontos": 10,
+        "opcoes": ["5/8", "3/10", "6/20", "6/15"],
+        "resposta": "3/10"
+      },
+      {
+        "id": 4,
+        "pergunta": "Qual é o resultado de (2/3) ÷ (4/5)?",
+        "pontos": 15,
+        "opcoes": ["8/15", "10/12", "5/6", "3/8"],
+        "resposta": "5/6"
+      },
+      {
+        "id": 5,
+        "pergunta": "Qual das frações é equivalente a 0,75?",
+        "pontos": 10,
+        "opcoes": ["1/3", "2/4", "3/4", "4/5"],
+        "resposta": "3/4"
+      }
+    ]
   },
-  {
-    "conteudo": "Algebra",
-    "numero": 8,
-    "pergunta": "Qual é a solução para o sistema de equações: x + y = 10 e x - y = 2?",
-    "opcoes": [
-      "x=6, y=4",
-      "x=4, y=6",
-      "x=5, y=5",
-      "x=7, y=3"
-    ],
-    "resposta_correta": "x=6, y=4",
-    "pontos": 20
+  "Equações de 1º Grau": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é o valor de x em 2x + 4 = 10?",
+        "pontos": 15,
+        "opcoes": ["2", "3", "4", "5"],
+        "resposta": "3"
+      },
+      {
+        "id": 2,
+        "pergunta": "Resolva: 3x - 9 = 0",
+        "pontos": 10,
+        "opcoes": ["0", "1", "2", "3"],
+        "resposta": "3"
+      },
+      {
+        "id": 3,
+        "pergunta": "Se 5x = 25, então x =",
+        "pontos": 10,
+        "opcoes": ["0", "1", "5", "10"],
+        "resposta": "5"
+      },
+      {
+        "id": 4,
+        "pergunta": "Qual é a solução da equação x/2 + 3 = 7?",
+        "pontos": 15,
+        "opcoes": ["6", "7", "8", "10"],
+        "resposta": "8"
+      },
+      {
+        "id": 5,
+        "pergunta": "Em 4x - 8 = 0, qual o valor de x?",
+        "pontos": 10,
+        "opcoes": ["1", "2", "4", "8"],
+        "resposta": "2"
+      }
+    ]
   },
-  {
-    "conteudo": "Algebra",
-    "numero": 9,
-    "pergunta": "Qual o grau do polinômio P(x) = 5x⁴ - 2x² + 7?",
-    "opcoes": [
-      "Grau 1",
-      "Grau 2",
-      "Grau 4",
-      "Grau 5"
-    ],
-    "resposta_correta": "Grau 4",
-    "pontos": 10
+  "Proporcionalidade Regra de Três": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Se 4 cadernos custam R$ 20, quanto custam 6 cadernos?",
+        "pontos": 10,
+        "opcoes": ["R$25", "R$28", "R$30", "R$35"],
+        "resposta": "R$30"
+      },
+      {
+        "id": 2,
+        "pergunta": "Se 3 metros de tecido custam R$ 24, quanto custam 5 metros?",
+        "pontos": 10,
+        "opcoes": ["R$30", "R$36", "R$40", "R$45"],
+        "resposta": "R$40"
+      },
+      {
+        "id": 3,
+        "pergunta": "Se 5 operários fazem um muro em 10 dias, quantos dias levarão 10 operários?",
+        "pontos": 15,
+        "opcoes": ["2", "3", "5", "10"],
+        "resposta": "5"
+      },
+      {
+        "id": 4,
+        "pergunta": "Se 8 litros de tinta pintam 64 m², quantos m² serão pintados com 2 litros?",
+        "pontos": 10,
+        "opcoes": ["8", "12", "16", "20"],
+        "resposta": "16"
+      },
+      {
+        "id": 5,
+        "pergunta": "Se um carro percorre 180 km com 15 litros, quantos litros precisa para 300 km?",
+        "pontos": 15,
+        "opcoes": ["20", "25", "30", "35"],
+        "resposta": "25"
+      }
+    ]
   },
-  {
-    "conteudo": "Algebra",
-    "numero": 10,
-    "pergunta": "O que é uma 'equação linear'?",
-    "opcoes": [
-      "Uma equação onde a maior potência da variável é 2.",
-      "Uma equação onde todas as variáveis estão elevadas à potência 1.",
-      "Uma equação que possui apenas uma solução.",
-      "Uma equação sem soluções reais."
-    ],
-    "resposta_correta": "Uma equação onde todas as variáveis estão elevadas à potência 1.",
-    "pontos": 15
+  "Áreas e Perímetros": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é a área de um retângulo de 8 cm por 5 cm?",
+        "pontos": 10,
+        "opcoes": ["13 cm²", "20 cm²", "30 cm²", "40 cm²"],
+        "resposta": "40 cm²"
+      },
+      {
+        "id": 2,
+        "pergunta": "Qual é o perímetro de um quadrado com lado 6 cm?",
+        "pontos": 10,
+        "opcoes": ["12 cm", "18 cm", "24 cm", "36 cm"],
+        "resposta": "24 cm"
+      },
+      {
+        "id": 3,
+        "pergunta": "Um triângulo tem base 10 cm e altura 6 cm. Sua área é:",
+        "pontos": 10,
+        "opcoes": ["20 cm²", "30 cm²", "40 cm²", "60 cm²"],
+        "resposta": "30 cm²"
+      },
+      {
+        "id": 4,
+        "pergunta": "Um círculo tem raio 7 cm. Sua área aproximada é (use π = 3,14):",
+        "pontos": 15,
+        "opcoes": ["100 cm²", "120 cm²", "150 cm²", "154 cm²"],
+        "resposta": "154 cm²"
+      },
+      {
+        "id": 5,
+        "pergunta": "Um retângulo tem lados de 3 m e 9 m. Seu perímetro é:",
+        "pontos": 10,
+        "opcoes": ["18 m", "24 m", "30 m", "36 m"],
+        "resposta": "24 m"
+      }
+    ]
+  },
+  "Números Reais (Irracionais)": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual dos seguintes números é irracional?",
+        "pontos": 15,
+        "opcoes": ["3/5", "0.25", "√2", "4"],
+        "resposta": "√2"
+      },
+      {
+        "id": 2,
+        "pergunta": "Qual é a forma decimal aproximada de √3?",
+        "pontos": 15,
+        "opcoes": ["1.41", "1.73", "2.00", "3.14"],
+        "resposta": "1.73"
+      },
+      {
+        "id": 3,
+        "pergunta": "Entre os números abaixo, qual é racional?",
+        "pontos": 15,
+        "opcoes": ["π", "√5", "7/8", "√7"],
+        "resposta": "7/8"
+      },
+      {
+        "id": 4,
+        "pergunta": "O número π pertence a qual conjunto numérico?",
+        "pontos": 15,
+        "opcoes": ["Naturais", "Inteiros", "Racionais", "Irracionais"],
+        "resposta": "Irracionais"
+      },
+      {
+        "id": 5,
+        "pergunta": "Qual dos números abaixo tem uma representação decimal infinita e não periódica?",
+        "pontos": 15,
+        "opcoes": ["2.5", "√3", "0.333...", "7.25"],
+        "resposta": "√3"
+      }
+    ]
+  },
+
+  "Expressões e Fatoração": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é a forma fatorada de x² + 5x + 6?",
+        "pontos": 15,
+        "opcoes": ["(x + 2)(x + 3)", "(x + 1)(x + 6)", "(x + 4)(x + 1)", "(x + 3)(x + 4)"],
+        "resposta": "(x + 2)(x + 3)"
+      },
+      {
+        "id": 2,
+        "pergunta": "Qual expressão representa o produto notável (x + 4)²?",
+        "pontos": 15,
+        "opcoes": ["x² + 8x + 16", "x² + 16", "x² + 4x + 16", "x² + 4"],
+        "resposta": "x² + 8x + 16"
+      },
+      {
+        "id": 3,
+        "pergunta": "O que significa fatorar uma expressão?",
+        "pontos": 15,
+        "opcoes": ["Somar termos semelhantes", "Multiplicar variáveis", "Transformar em um produto de fatores", "Calcular a raiz quadrada"],
+        "resposta": "Transformar em um produto de fatores"
+      },
+      {
+        "id": 4,
+        "pergunta": "Qual é o fator comum em 6x² + 9x?",
+        "pontos": 15,
+        "opcoes": ["3x", "x²", "6", "9x"],
+        "resposta": "3x"
+      },
+      {
+        "id": 5,
+        "pergunta": "Qual é a fatoração de x² - 9?",
+        "pontos": 15,
+        "opcoes": ["(x - 3)(x + 3)", "(x - 9)(x + 1)", "(x + 9)(x - 1)", "(x + 3)²"],
+        "resposta": "(x - 3)(x + 3)"
+      }
+    ]
+  },
+
+  "Sistemas de Equações": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é a solução do sistema: x + y = 10 e x - y = 2?",
+        "pontos": 15,
+        "opcoes": ["x=6, y=4", "x=8, y=2", "x=5, y=5", "x=7, y=3"],
+        "resposta": "x=6, y=4"
+      },
+      {
+        "id": 2,
+        "pergunta": "Um sistema é considerado possível e determinado quando:",
+        "pontos": 15,
+        "opcoes": ["Não tem solução", "Tem infinitas soluções", "Tem uma única solução", "Não pode ser resolvido"],
+        "resposta": "Tem uma única solução"
+      },
+      {
+        "id": 3,
+        "pergunta": "O método da substituição consiste em:",
+        "pontos": 15,
+        "opcoes": ["Somar as equações", "Substituir uma variável na outra", "Multiplicar as equações", "Elevar ao quadrado"],
+        "resposta": "Substituir uma variável na outra"
+      },
+      {
+        "id": 4,
+        "pergunta": "Qual é o resultado do sistema: 2x + y = 8 e x + y = 5?",
+        "pontos": 15,
+        "opcoes": ["x=3, y=2", "x=4, y=0", "x=2, y=3", "x=1, y=4"],
+        "resposta": "x=3, y=2"
+      },
+      {
+        "id": 5,
+        "pergunta": "Se um sistema não tem solução, ele é chamado de:",
+        "pontos": 15,
+        "opcoes": ["Possível", "Impossível", "Indeterminado", "Infinito"],
+        "resposta": "Impossível"
+      }
+    ]
+  },
+
+  "Geometria (Congruência e Semelhança)": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Dois triângulos são semelhantes quando:",
+        "pontos": 15,
+        "opcoes": ["Têm lados iguais", "Têm ângulos e lados proporcionais", "Têm áreas iguais", "São retângulos"],
+        "resposta": "Têm ângulos e lados proporcionais"
+      },
+      {
+        "id": 2,
+        "pergunta": "Na semelhança de triângulos, a razão entre lados correspondentes é chamada de:",
+        "pontos": 15,
+        "opcoes": ["Área", "Volume", "Razão de semelhança", "Ângulo"],
+        "resposta": "Razão de semelhança"
+      },
+      {
+        "id": 3,
+        "pergunta": "A congruência entre triângulos indica que:",
+        "pontos": 15,
+        "opcoes": ["São idênticos em forma e tamanho", "São apenas semelhantes", "Têm lados proporcionais", "Têm ângulos diferentes"],
+        "resposta": "São idênticos em forma e tamanho"
+      },
+      {
+        "id": 4,
+        "pergunta": "Se dois triângulos têm dois ângulos iguais, eles são:",
+        "pontos": 15,
+        "opcoes": ["Congruentes", "Semelhantes", "Retângulos", "Equiláteros"],
+        "resposta": "Semelhantes"
+      },
+      {
+        "id": 5,
+        "pergunta": "A semelhança de figuras planas mantém:",
+        "pontos": 15,
+        "opcoes": ["A forma e a proporção dos lados", "A área", "O perímetro", "A cor"],
+        "resposta": "A forma e a proporção dos lados"
+      }
+    ]
+  },
+
+  "Média, Mediana e Moda": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é a média dos números 4, 6 e 10?",
+        "pontos": 15,
+        "opcoes": ["6", "7", "8", "10"],
+        "resposta": "6.67"
+      },
+      {
+        "id": 2,
+        "pergunta": "Qual é a mediana do conjunto 3, 8, 5, 9, 10?",
+        "pontos": 15,
+        "opcoes": ["8", "9", "7", "5"],
+        "resposta": "8"
+      },
+      {
+        "id": 3,
+        "pergunta": "No conjunto 2, 2, 3, 5, 7, 7, 7, qual é a moda?",
+        "pontos": 15,
+        "opcoes": ["2", "3", "5", "7"],
+        "resposta": "7"
+      },
+      {
+        "id": 4,
+        "pergunta": "Se todos os valores de um conjunto forem multiplicados por 2, a média:",
+        "pontos": 15,
+        "opcoes": ["Diminui", "Permanece igual", "Dobra", "Fica metade"],
+        "resposta": "Dobra"
+      },
+      {
+        "id": 5,
+        "pergunta": "A moda representa:",
+        "pontos": 15,
+        "opcoes": ["O maior valor", "O valor central", "O valor que mais se repete", "A soma dos valores"],
+        "resposta": "O valor que mais se repete"
+      }
+    ]
+  },
+  "Potências e Radicais": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é o resultado de 3²?",
+        "pontos": 15,
+        "opcoes": ["6", "9", "12", "3"],
+        "resposta": "9"
+      },
+      {
+        "id": 2,
+        "pergunta": "Qual é o valor de √49?",
+        "pontos": 15,
+        "opcoes": ["6", "7", "8", "9"],
+        "resposta": "7"
+      },
+      {
+        "id": 3,
+        "pergunta": "Qual das expressões abaixo é equivalente a 2³ × 2²?",
+        "pontos": 15,
+        "opcoes": ["2⁵", "2⁶", "2¹", "2¹⁰"],
+        "resposta": "2⁵"
+      },
+      {
+        "id": 4,
+        "pergunta": "A raiz quadrada de um número é o mesmo que:",
+        "pontos": 15,
+        "opcoes": ["Elevá-lo ao quadrado", "Encontrar o número que multiplicado por si resulta nele", "Somá-lo duas vezes", "Dividi-lo por dois"],
+        "resposta": "Encontrar o número que multiplicado por si resulta nele"
+      },
+      {
+        "id": 5,
+        "pergunta": "O valor de (−2)⁴ é:",
+        "pontos": 15,
+        "opcoes": ["−8", "8", "16", "−16"],
+        "resposta": "16"
+      }
+    ]
+  },
+
+  "Produtos Notáveis": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é o resultado de (a + b)²?",
+        "pontos": 15,
+        "opcoes": ["a² + b²", "a² + 2ab + b²", "2a² + b²", "a² − 2ab + b²"],
+        "resposta": "a² + 2ab + b²"
+      },
+      {
+        "id": 2,
+        "pergunta": "Qual é o produto notável de (a − b)²?",
+        "pontos": 15,
+        "opcoes": ["a² − b²", "a² − 2ab + b²", "a² + 2ab + b²", "a² − ab"],
+        "resposta": "a² − 2ab + b²"
+      },
+      {
+        "id": 3,
+        "pergunta": "O produto (a + b)(a − b) é igual a:",
+        "pontos": 15,
+        "opcoes": ["a² + b²", "a² − b²", "2ab", "a² − 2b²"],
+        "resposta": "a² − b²"
+      },
+      {
+        "id": 4,
+        "pergunta": "O quadrado da soma de dois números é igual a:",
+        "pontos": 15,
+        "opcoes": ["A soma dos quadrados", "O dobro da soma dos números", "A soma dos quadrados mais o dobro do produto", "A diferença dos quadrados"],
+        "resposta": "A soma dos quadrados mais o dobro do produto"
+      },
+      {
+        "id": 5,
+        "pergunta": "O produto notável (x + 5)² resulta em:",
+        "pontos": 15,
+        "opcoes": ["x² + 10x + 25", "x² + 25", "x² + 5x", "x² + 5"],
+        "resposta": "x² + 10x + 25"
+      }
+    ]
+  },
+
+  "Equações de 2º Grau": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é a forma geral de uma equação do 2º grau?",
+        "pontos": 15,
+        "opcoes": ["ax + b = 0", "ax² + bx + c = 0", "x² = b", "ax² = b"],
+        "resposta": "ax² + bx + c = 0"
+      },
+      {
+        "id": 2,
+        "pergunta": "Qual é o valor de Δ (delta) na fórmula de Bhaskara?",
+        "pontos": 15,
+        "opcoes": ["b² − 4ac", "b² + 4ac", "a² − 4bc", "2a + b"],
+        "resposta": "b² − 4ac"
+      },
+      {
+        "id": 3,
+        "pergunta": "A equação x² − 9 = 0 tem como raízes:",
+        "pontos": 15,
+        "opcoes": ["3 e −3", "9 e 0", "1 e 9", "Nenhuma"],
+        "resposta": "3 e −3"
+      },
+      {
+        "id": 4,
+        "pergunta": "Se Δ < 0, a equação possui:",
+        "pontos": 15,
+        "opcoes": ["Duas raízes reais", "Uma raiz real", "Nenhuma raiz real", "Infinitas soluções"],
+        "resposta": "Nenhuma raiz real"
+      },
+      {
+        "id": 5,
+        "pergunta": "Na equação x² − 5x + 6 = 0, as raízes são:",
+        "pontos": 15,
+        "opcoes": ["1 e 6", "2 e 3", "3 e 5", "−2 e −3"],
+        "resposta": "2 e 3"
+      }
+    ]
+  },
+
+  "Teorema de Pitágoras": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é a fórmula do Teorema de Pitágoras?",
+        "pontos": 15,
+        "opcoes": ["a² + b² = c²", "a² − b² = c²", "a² = b² + c²", "c² − a² = b²"],
+        "resposta": "a² + b² = c²"
+      },
+      {
+        "id": 2,
+        "pergunta": "Em um triângulo retângulo com catetos 3 e 4, o valor da hipotenusa é:",
+        "pontos": 15,
+        "opcoes": ["5", "6", "7", "8"],
+        "resposta": "5"
+      },
+      {
+        "id": 3,
+        "pergunta": "O Teorema de Pitágoras é aplicável apenas em triângulos:",
+        "pontos": 15,
+        "opcoes": ["Isósceles", "Equiláteros", "Retângulos", "Escalenos"],
+        "resposta": "Retângulos"
+      },
+      {
+        "id": 4,
+        "pergunta": "Se a hipotenusa mede 10 e um cateto mede 6, o outro cateto mede:",
+        "pontos": 15,
+        "opcoes": ["6", "7", "8", "9"],
+        "resposta": "8"
+      },
+      {
+        "id": 5,
+        "pergunta": "Em um triângulo retângulo, o quadrado da hipotenusa é igual a:",
+        "pontos": 15,
+        "opcoes": ["A soma dos quadrados dos catetos", "A diferença dos catetos", "O dobro dos catetos", "A média dos catetos"],
+        "resposta": "A soma dos quadrados dos catetos"
+      }
+    ]
+  },
+
+  "Introdução a Funções": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "O que é uma função?",
+        "pontos": 15,
+        "opcoes": ["Uma equação com várias variáveis", "Uma relação em que cada x tem um único y", "Uma tabela com números aleatórios", "Um gráfico sem sentido"],
+        "resposta": "Uma relação em que cada x tem um único y"
+      },
+      {
+        "id": 2,
+        "pergunta": "Qual das opções representa uma função?",
+        "pontos": 15,
+        "opcoes": ["x → y = 2x + 1", "x → y = ±√x", "x → y² = x", "x → y = x ± 1"],
+        "resposta": "x → y = 2x + 1"
+      },
+      {
+        "id": 3,
+        "pergunta": "Qual é o valor de f(3) para f(x) = 2x + 4?",
+        "pontos": 15,
+        "opcoes": ["6", "8", "9", "10"],
+        "resposta": "10"
+      },
+      {
+        "id": 4,
+        "pergunta": "O gráfico de uma função do 1º grau é:",
+        "pontos": 15,
+        "opcoes": ["Uma parábola", "Uma reta", "Uma hipérbole", "Uma circunferência"],
+        "resposta": "Uma reta"
+      },
+      {
+        "id": 5,
+        "pergunta": "Na função f(x) = x², o gráfico é:",
+        "pontos": 15,
+        "opcoes": ["Uma parábola", "Uma reta", "Um círculo", "Uma elipse"],
+        "resposta": "Uma parábola"
+      }
+    ]
   }
-]
+}
