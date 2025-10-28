@@ -38,7 +38,7 @@
         android:fontFamily="@font/itim"
         android:gravity="center"
         android:includeFontPadding="false"
-        android:text="78"
+        android:text="00"
         android:textColor="@color/black"
         android:textSize="60dp"
         app:layout_constraintBottom_toTopOf="@+id/timeText"

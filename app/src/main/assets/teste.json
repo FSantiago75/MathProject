@@ -1,0 +1,232 @@
+{
+  "MMC_e_MDC": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é o MMC entre 12 e 18?",
+        "pontos": 15,
+        "opcoes": ["12", "18", "24", "36"],
+        "resposta": "36"
+      }
+    ]
+  },
+  "Frações_e_Decimais": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é o valor decimal da fração 3/4?",
+        "pontos": 10,
+        "opcoes": ["0,5", "0,65", "0,75", "1,25"],
+        "resposta": "0,75"
+      }
+    ]
+  },
+  "Medidas_e_Conversões": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Quantos centímetros há em 2,5 metros?",
+        "pontos": 10,
+        "opcoes": ["25", "250", "2500", "0,25"],
+        "resposta": "250"
+      }
+    ]
+  },
+  "Geometria_Básica_e_Sólidos": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Quantos vértices tem um cubo?",
+        "pontos": 10,
+        "opcoes": ["6", "8", "10", "12"],
+        "resposta": "8"
+      }
+    ]
+  },
+  "Gráficos_e_Estatística": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Em um gráfico de barras, o que o eixo horizontal geralmente representa?",
+        "pontos": 10,
+        "opcoes": ["A frequência", "As categorias", "O total", "O título"],
+        "resposta": "As categorias"
+      }
+    ]
+  },
+  "Números_Inteiros": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é o resultado de (-8) + 5?",
+        "pontos": 10,
+        "opcoes": ["13", "3", "-3", "-13"],
+        "resposta": "-3"
+      }
+    ]
+  },
+  "Operações_Racionais": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é o resultado de 2/3 + 1/6?",
+        "pontos": 15,
+        "opcoes": ["1/2", "5/6", "2/9", "3/4"],
+        "resposta": "5/6"
+      }
+    ]
+  },
+  "Equações_de_1º_Grau": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é o valor de x em 2x + 4 = 10?",
+        "pontos": 15,
+        "opcoes": ["2", "3", "4", "5"],
+        "resposta": "3"
+      }
+    ]
+  },
+  "Proporcionalidade_Regra_de_Três": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Se 4 cadernos custam R$ 20, quanto custam 6 cadernos?",
+        "pontos": 10,
+        "opcoes": ["R$25", "R$28", "R$30", "R$35"],
+        "resposta": "R$30"
+      }
+    ]
+  },
+  "Áreas_e_Perímetros": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é a área de um retângulo de 8 cm por 5 cm?",
+        "pontos": 10,
+        "opcoes": ["13 cm²", "20 cm²", "30 cm²", "40 cm²"],
+        "resposta": "40 cm²"
+      }
+    ]
+  },
+  "Números_Reais_Irracionais": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual dos números abaixo é irracional?",
+        "pontos": 15,
+        "opcoes": ["1/2", "0,333...", "√2", "5"],
+        "resposta": "√2"
+      }
+    ]
+  },
+  "Expressões_e_Fatoração": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é o fator comum em 6x + 9?",
+        "pontos": 10,
+        "opcoes": ["3", "6", "9", "x"],
+        "resposta": "3"
+      }
+    ]
+  },
+  "Sistemas_de_Equações": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é a solução do sistema: x + y = 10 e x - y = 4?",
+        "pontos": 20,
+        "opcoes": ["x=6, y=4", "x=4, y=6", "x=8, y=2", "x=7, y=3"],
+        "resposta": "x=7, y=3"
+      }
+    ]
+  },
+  "Geometria_Congruência_e_Semelhança": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Dois triângulos são semelhantes quando:",
+        "pontos": 10,
+        "opcoes": [
+          "Têm os mesmos lados",
+          "Têm ângulos e lados proporcionais",
+          "Têm a mesma área",
+          "Têm o mesmo perímetro"
+        ],
+        "resposta": "Têm ângulos e lados proporcionais"
+      }
+    ]
+  },
+  "Média_Mediana_e_Moda": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é a média dos números 5, 7 e 9?",
+        "pontos": 10,
+        "opcoes": ["6", "7", "8", "10"],
+        "resposta": "7"
+      }
+    ]
+  },
+  "Potências_e_Radicais": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é o valor de 3²?",
+        "pontos": 5,
+        "opcoes": ["6", "9", "12", "18"],
+        "resposta": "9"
+      }
+    ]
+  },
+  "Produtos_Notáveis": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é o resultado de (a + b)²?",
+        "pontos": 10,
+        "opcoes": [
+          "a² + b²",
+          "a² + 2ab + b²",
+          "2a² + b²",
+          "a² + ab + b²"
+        ],
+        "resposta": "a² + 2ab + b²"
+      }
+    ]
+  },
+  "Equações_de_2º_Grau": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é o valor de x na equação x² - 4 = 0?",
+        "pontos": 15,
+        "opcoes": ["2 e -2", "4 e -4", "1 e -1", "0 e 4"],
+        "resposta": "2 e -2"
+      }
+    ]
+  },
+  "Teorema_de_Pitágoras": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Em um triângulo retângulo com catetos de 3 e 4, qual é a hipotenusa?",
+        "pontos": 10,
+        "opcoes": ["5", "6", "7", "8"],
+        "resposta": "5"
+      }
+    ]
+  },
+  "Introdução_a_Funções": {
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Se f(x) = 2x + 1, qual é o valor de f(3)?",
+        "pontos": 10,
+        "opcoes": ["5", "6", "7", "8"],
+        "resposta": "7"
+      }
+    ]
+  }
+}
