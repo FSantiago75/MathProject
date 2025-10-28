@@ -1,11 +1,30 @@
-[
-  {
-
+{
+  "6": {
+    "conteudo1": "MMC e MDC",
+    "conteudo2": "Frações e Decimais",
+    "conteudo3": "Medidas e Conversões",
+    "conteudo4": "Geometria Básica e Sólidos",
+    "conteudo5": "Gráficos e Estatística"
   },
-  {
-
+  "7": {
+    "conteudo1": "Números Inteiros",
+    "conteudo2": "Operações Racionais",
+    "conteudo3": "Equações de 1º Grau",
+    "conteudo4": "Proporcionalidade (Regra de Três)",
+    "conteudo5": "Áreas e Perímetros"
   },
-  {
-
+  "8": {
+    "conteudo1": "Números Reais (Irracionais)",
+    "conteudo2": "Expressões e Fatoração",
+    "conteudo3": "Sistemas de Equações",
+    "conteudo4": "Geometria (Congruência e Semelhança)",
+    "conteudo5": "Média, Mediana e Moda"
+  },
+  "9": {
+    "conteudo1": "Potências e Radicais",
+    "conteudo2": "Produtos Notáveis",
+    "conteudo3": "Equações de 2º Grau",
+    "conteudo4": "Teorema de Pitágoras",
+    "conteudo5": "Introdução a Funções"
   }
-]
+}
