@@ -1,9 +1,13 @@
 package com.example.mathproject
 
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.os.CountDownTimer
+import android.util.Log
 import android.view.View
+import android.widget.Button
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 class QuizActivity : AppCompatActivity() {
@@ -12,13 +16,29 @@ class QuizActivity : AppCompatActivity() {
         setContentView(R.layout.activity_quiz)
 
         val timerProgressView = findViewById<View>(R.id.timerProgress)
+        var totalTime = 0L
+        val timerTextView = findViewById<TextView>(R.id.textViewTimer)
+        val btnBack = findViewById<Button>(R.id.ga_btnBack)
+
+        val Dificuldade = intent.getStringExtra("EXTRA_DIFICULDADE")
+        val logDificuldade = Dificuldade ?: "NÃO DEFINIDO"
+        when(logDificuldade) {
+            "Fácil" -> totalTime = 90000L
+            "Médio" -> totalTime = 60000L
+            "Difícil" -> totalTime = 30000L
+        }
+
 
         val startColor = Color.parseColor("#7ACA6F")
         val endColor = Color.parseColor("#FF0000")
-        val totalTime = 10000L // 10 segundos
 
         object : CountDownTimer(totalTime, 100) {
             override fun onTick(millisUntilFinished: Long) {
+                val minutes = (millisUntilFinished / 1000) / 60
+                val seconds = (millisUntilFinished / 1000) % 60
+                val timeFormatted = String.format("%02d:%02d", minutes, seconds)
+                timerTextView.text = timeFormatted
+
                 val colorProgress = 1f - millisUntilFinished.toFloat() / totalTime
                 val currentColor = interpolateColor(startColor, endColor, colorProgress)
                 timerProgressView.setBackgroundColor(currentColor)
@@ -30,8 +50,26 @@ class QuizActivity : AppCompatActivity() {
             override fun onFinish() {
                 timerProgressView.setBackgroundColor(endColor)
                 timerProgressView.scaleX = 0f
+                timerTextView.text = "00:00"
             }
         }.start()
+
+        val Serie = intent.getStringExtra("EXTRA_SERIE")
+        val Conteudo = intent.getStringExtra("EXTRA_CONTEUDO")
+
+        val logSerie = Serie ?: "NÃO DEFINIDO"
+        val logConteudo = Conteudo ?: "NÃO DEFINIDO"
+
+
+        Log.d("tag", "Serie: $logSerie, Conteudo: $logConteudo, Dificuldade: $logDificuldade")
+
+        btnBack.setOnClickListener {
+            val difficulty = Intent(this, DifficultyActivity::class.java).apply{
+                putExtra("EXTRA_SERIE", logSerie)
+                putExtra("EXTRA_CONTEUDO", logConteudo)
+            }
+            startActivity(difficulty)
+        }
     }
 
     fun interpolateColor(startColor: Int, endColor: Int, progress: Float): Int {

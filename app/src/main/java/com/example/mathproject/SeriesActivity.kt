@@ -1,5 +1,6 @@
 package com.example.mathproject
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -83,6 +84,11 @@ class SeriesActivity : AppCompatActivity() {
         // Ação do botão Confirmar
         confirmButton.setOnClickListener {
             Log.d("SeriesActivity", "Série selecionada: $currentSelectedValue")
+            val content = Intent(this, ContentActivity::class.java).apply {
+                putExtra("EXTRA_SERIE", currentSelectedValue)
+            }
+
+            startActivity(content)
             // Adicione sua lógica aqui (ex: salvar, próxima tela)
         }
 
